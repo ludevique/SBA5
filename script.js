@@ -58,6 +58,8 @@ app.use('/api', function (req, res, next) {
 app.use('/api/users', userRouter);
 app.use('/api/posts', postRouter);
 
+// Testing Testing Testing 
+
 app.get('/', (req, res) => {
   res.json({
     links: [
