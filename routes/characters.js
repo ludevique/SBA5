@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const posts = require('../data/posts.js');
+const characters = require('../data/characters.js');
 
 //GET route to get all post data
 router.get('/', (req, res) => {

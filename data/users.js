@@ -1,30 +1,67 @@
-// Creating the simple data structures we'll work with.
-// How we choose to store and organize this data is very important!
-// Different options and techniques for storing data and
-// creating relationships between different data sets will be
-// explored during lessons on database integrations and techniques.
+//Start with an array of object which  contain
+// the data we are going to work with.
+// This will be th information about some hidden village in naruto anime.
 
-// The "users" data will be simple information about
-// the application's user base.
-const users = [
+  // 
+const villages = [
     {
       id: 1,
-      name: 'Carey',
-      username: 'cyare23',
-      email: 'cy23@example.com',
+      village: 'konoha',
+      element: 'fire',
+      symbol: 'leaf',
+      chieftitlename: "hokage",
+      principalcharac: "uzumaki naruto",
     },
     {
       id: 2,
-      name: 'Mikoto',
-      username: 'Miiko',
-      email: 'mikoto_u@example.com',
+      village: 'suna',
+      element: 'sand',
+      symbol: '',
+      chieftitlename: "kazekage",
+      principalcharac: "Garaa"
     },
     {
       id: 3,
-      name: 'Ronald',
-      username: 'RonRonRon',
-      email: 'mronald@example.com',
+      village: 'kiiri',
+      element: 'mist',
+      symbol: 'water',
+      chieftitlename: "mizukage",
+      principalcharac: "zabuza"
+    },
+    {
+      id: 4,
+      village: 'Iwa',
+      element: 'earth',
+      symbol: 'stone',
+      chieftitlename: "tsuchikage",
+      principalcharac: ""
+    },
+    {
+      id: 5,
+      village: 'oto',
+      element: 'sound',
+      chieftitlename: '',
+
+    },
+    {
+      id: 6,
+      village: 'kumo',
+      element: 'cloud',
+      chieftitlename: 'raikage',
+      principalcharac: "",
+      symbol: "lightning"
+    },
+    {
+      id: 7,
+      village: 'Ame',
+      element: 'water',
+      chieftitlename: "amekage",
+    },
+    {
+      id: 8,
+      village: 'kusa',
+      element: 'air',
     },
   ];
   
-  module.exports = users;
+  module.exports = villages;
